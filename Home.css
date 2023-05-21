@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 734px;
+  min-height: 733px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -25,27 +25,27 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 4.5rem;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  font-family: "Advent Pro";
   font-weight: 700;
-  margin: 92px 1px 0;
+  font-family: Aldrich;
+  font-size: 3.75rem;
+  margin: 78px 1px 0;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.875rem;
+  font-size: 2.25rem;
   line-height: 1.8;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  font-family: Aldrich;
   font-weight: 500;
-  font-family: "Advent Pro";
   margin: 80px 0 0;
 }
 
@@ -59,24 +59,30 @@
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 30px 0 30px 40px;
+  padding: 0 0 0 40px;
 }
 
 .u-section-1 .u-image-1 {
   width: 453px;
   height: 453px;
-  margin: 81px auto 0;
+  margin: 111px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 151px;
+  height: 151px;
+  margin: -76px 49px 0 auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 525px;
+    min-height: 654px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -97,13 +103,11 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 628px;
+    min-height: 460px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 770px;
-    margin-left: -25px;
-    margin-right: -25px;
+    width: 720px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -121,7 +125,6 @@
 
   .u-section-1 .u-text-2 {
     font-size: 1rem;
-    margin-top: 30px;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -135,14 +138,8 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 966px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 540px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -152,7 +149,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 4.5rem;
+    font-size: 3.75rem;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -167,8 +164,8 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 497px;
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
   }
 
   .u-section-1 .u-text-1 {
@@ -186,7 +183,11 @@
 
   .u-section-1 .u-image-1 {
     width: 330px;
-    height: 320px;
+    height: 330px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: 47px;
   }
 } .u-section-2 {
   background-image: none;
@@ -202,8 +203,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  font-family: Aldrich;
   font-weight: 700;
-  font-family: "Advent Pro";
   margin: 60px auto 0;
 }
 
