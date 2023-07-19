@@ -752,7 +752,22 @@ body
    width: 100%;
    height: 25px;
 }
-#wb_Card13
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Card15
 {
    position: relative;
    display: flex;
@@ -765,13 +780,13 @@ body
    border-radius: 20px;
    text-align: center;
 }
-#Card13-card-body
+#Card15-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card13-card-item0
+#Card15-card-item0
 {
    box-sizing: border-box;
    border-radius: 20px 20px 0 0 !important;
@@ -783,19 +798,17 @@ body
    font-style: normal;
    font-size: 27px;
 }
-#Card13-card-item1
+#Card15-card-item1
 {
    box-sizing: border-box;
-   margin: 30px 10px 25px 10px;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Trueno;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 20px;
-   text-align: center;
+   margin: 10px 0 0 0 ;
+   padding: 12px 12px 12px 12px;
+   border: 0px solid #000000;
+   border-radius: 10px;
+   width: 100%;
+   height: auto;
 }
-#Card13-card-item2
+#Card15-card-item2
 {
    box-sizing: border-box;
    margin: 0 0 10px 0 ;
@@ -836,14 +849,12 @@ body
 #Card14-card-item1
 {
    box-sizing: border-box;
-   margin: 30px 10px 25px 10px;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Trueno;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 20px;
-   text-align: center;
+   margin: 10px 0 0 0 ;
+   padding: 12px 12px 12px 12px;
+   border: 0px solid #000000;
+   border-radius: 10px;
+   width: 100%;
+   height: auto;
 }
 #Card14-card-item2
 {
@@ -851,19 +862,4 @@ body
    margin: 0 0 10px 0 ;
    width: 100%;
    height: 25px;
-}
-#wb_Image2
-{
-   vertical-align: top;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
