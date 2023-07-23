@@ -216,14 +216,6 @@ body
    height: 320px;
    font-size: 0;
 }
-#Table1 .cell8
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: top;
-   height: 394px;
-}
 #wb_Card2
 {
    position: relative;
@@ -857,6 +849,54 @@ body
    height: auto;
 }
 #Card14-card-item2
+{
+   box-sizing: border-box;
+   margin: 0 0 10px 0 ;
+   width: 100%;
+   height: 25px;
+}
+#wb_Card13
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: #4C90C1;
+   background-image: none;
+   border: 0px solid #404040;
+   border-radius: 20px;
+   text-align: center;
+}
+#Card13-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card13-card-item0
+{
+   box-sizing: border-box;
+   border-radius: 20px 20px 0 0 !important;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Trueno;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 27px;
+}
+#Card13-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0 0 0 ;
+   padding: 12px 12px 12px 12px;
+   border: 0px solid #000000;
+   border-radius: 10px;
+   width: 100%;
+   height: auto;
+}
+#Card13-card-item2
 {
    box-sizing: border-box;
    margin: 0 0 10px 0 ;
